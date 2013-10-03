@@ -16,6 +16,8 @@
 		<div class="container masonry">
 
 			<div id="sm jstwitter" class="sm-twitter item">
+
+				<?php include('/php/get-tweets.php') ?>
 				
 				<p class="sm-date">Sept 16</p>
 

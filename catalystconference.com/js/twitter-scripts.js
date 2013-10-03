@@ -10,8 +10,8 @@ JQTWEET = {
     user: 'twitterapi', //username
     numTweets: 21, //number of tweets
     appendTo: '#jstwitter',
-    useGridalicious: true,
-    template: '<p></p>',
+    useGridalicious: false,
+    template: '<p>{TEXT}</p>',
      
     // core function of jqtweet
     // https://dev.twitter.com/docs/using-search
