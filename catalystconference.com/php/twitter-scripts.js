@@ -6,7 +6,7 @@ JQTWEET = {
     // You need to clear tweet-date.txt before toggle between hash and user
     // for multiple hashtags, you can separate the hashtag with OR, eg:
     // hash: '%23jquery OR %23css'			    
-    search: '%23heroes2013', //leave this blank if you want to show user's tweet
+    // search: '', //leave this blank if you want to show user's tweet
     user: 'PhdeOliveira', //username
     numTweets: 21, //number of tweets
     appendTo: '#jstwitter',
@@ -35,7 +35,7 @@ JQTWEET = {
         }
 
         $.ajax({
-            url: 'twitterAuth.php',
+            url: '/php/twitterAuth.php',
             type: 'POST',
             dataType: 'json',
             data: request,

@@ -15,9 +15,9 @@
 
 		<div class="container masonry">
 
-			<div id="sm jstwitter" class="sm-twitter item">
+			<div id="jstwitter"></div>
 
-				<?php include('/php/get-tweets.php') ?>
+			<div id="sm" class="sm-twitter item">
 				
 				<p class="sm-date">Sept 16</p>
 
@@ -127,7 +127,7 @@
 		</div>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script src="js/masonry.pkgd.min.js"></script>
-	<script src="js/twitter-scripts.js"></script>
+	<script src="php/twitter-scripts.js"></script>
 	<script src="js/post-scripts.js"></script>
 
 	</body>
