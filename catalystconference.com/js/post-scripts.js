@@ -17,6 +17,4 @@ var msnry = new Masonry( container, {
 $(function () {
     // start jqtweet!
     JQTWEET.loadTweets();
-
-    console.log(JQTWEET);
 });
