@@ -1519,6 +1519,10 @@ legend + .control-group {
   src: url("fonts/08f81dde-07fe-4a13-b96b-de70ab913f0c.eot?#iefix");
   src: url("fonts/08f81dde-07fe-4a13-b96b-de70ab913f0c.eot?#iefix") format("eot"), url("fonts/f2ce3af9-0227-443e-ba37-0293d811f89b.woff") format("woff"), url("fonts/490fb46a-54c6-486b-9dc8-4b6862162feb.ttf") format("truetype"), url("fonts/27811e8b-0bca-46f2-8f73-bf56a19a5785.svg#27811e8b-0bca-46f2-8f73-bf56a19a5785") format("svg");
 }
+@font-face {
+  font-family: "Avenir";
+  src: url("fonts/ps_fonts/Avenir.ttf") format('truetype');
+}
 /* BACKSTAGE - NEXT UP FORMATTING */
 .backstage .spot {
   width: 229px;

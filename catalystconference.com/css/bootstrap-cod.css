@@ -1520,6 +1520,10 @@ legend + .control-group {
   src: url("fonts/08f81dde-07fe-4a13-b96b-de70ab913f0c.eot?#iefix") format("eot"), url("fonts/f2ce3af9-0227-443e-ba37-0293d811f89b.woff") format("woff"), url("fonts/490fb46a-54c6-486b-9dc8-4b6862162feb.ttf") format("truetype"), url("fonts/27811e8b-0bca-46f2-8f73-bf56a19a5785.svg#27811e8b-0bca-46f2-8f73-bf56a19a5785") format("svg");
 }
 @font-face {
+  font-family: "Avenir";
+  src: url("fonts/ps_fonts/Avenir.ttf") format('truetype');
+}
+@font-face {
   font-family: "Helvetica Neue Bold Condensed";
   src: url("fonts/83d5bc89-af33-46a9-8fe3-15d87784f50e.eot?#iefix");
   src: url("fonts/83d5bc89-af33-46a9-8fe3-15d87784f50e.eot?#iefix") format("eot"), url("fonts/102ab74c-0e84-4fe5-a17a-b20fb643591a.woff") format("woff"), url("fonts/1d146b29-55e2-485b-96aa-5cb628e7e9eb.ttf") format("truetype"), url("fonts/d90b3358-e1e2-4abb-ba96-356983a54c22.svg#d90b3358-e1e2-4abb-ba96-356983a54c22") format("svg");

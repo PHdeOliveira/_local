@@ -11,6 +11,7 @@ var msnry = new Masonry( container, {
   gutter: 4
 });
 
+document.querySelector('.twitter-container').hidden = true;
 
 function twitterCall() {
 
@@ -18,6 +19,9 @@ function twitterCall() {
 
  setTimeout(function(){
 
+ 	document.querySelector('.twitter-container').hidden = false;
+
+ 	var loader = document.getElementsByClassName('sm-twitter');
 	var frame = document.getElementById('twitter-widget-0');
 	var stream = frame.contentDocument.children[0].children[1].children[0].children[2];
 	var feed = stream.firstElementChild;
@@ -25,10 +29,14 @@ function twitterCall() {
 	var tweet;
 	var tweetBody;
 
+	var container = document.getElementsByClassName('twitter-container');
+	var tweetResults = [];
+
 	for (var i = 0; i < feedChildren.length; i++) {
+
+		loader[i].firstElementChild.style.display = 'none';
 		tweet = feedChildren[i];
 		tweetBody = tweet.children[2];
-		// tweetHeader = 
 
 		tweet.children[1].hidden = true;
 		tweet.children[3].hidden = true;
@@ -39,27 +47,66 @@ function twitterCall() {
 		tweet.firstElementChild.style.position = 'absolute';
 		tweet.firstElementChild.style.right = 30 + 'px';
 		tweet.firstElementChild.style.bottom = 20 + 'px';
+		tweet.firstElementChild.setAttribute('class' , 'sm-date');
 
-		tweetBody.style.padding = '26px 30px 0';
-
-		console.dir(tweetBody);
-		console.log(tweet);
-
+		tweetBody.style.padding = '25px 30px 26px';
 
 		tweetBody.firstElementChild.style.color = '#fcfbf4';
 		tweetBody.firstElementChild.style.fontSize = 11 +'px';
 		tweetBody.firstElementChild.style.lineHeight = 13 + 'px';
+		tweetBody.firstElementChild.style.fontFamily = 'Avenir, helvetica, arial, sans-serif';
+		tweetBody.firstElementChild.style.fontWeight = 500;
+		tweetBody.firstElementChild.style.margin = 0;
 
-		
-		
+		// console.dir(tweetBody);
+
+		tweetResults.push(tweet);
+	
 	}
 
-	// console.dir(feed);
+	// console.log(container);
 
-}, 500)
+	for (var t = 0; t < container.length; t++) {
+
+		tweetResults[t].setAttribute('class', 'h-entry with-expansion  customisable-border');
+		
+		container[t].replaceChild(tweetResults[t],container[t].firstElementChild);
+	}
+
+}, 700)
+
+clearTimeout();
 
 }
 
+function vimeoLoad() {
+	var vimeo = document.getElementById('vimeo');
+	var vimeoFrame = document.createElement('iframe');
 
-window.onload = twitterCall;
+	vimeoFrame.src = '//player.vimeo.com/video/65696417';
+	vimeoFrame.width = 564;
+	vimeoFrame.height = 312;
+	vimeoFrame.frameborder = 0;
+	vimeoFrame.webkitallowfullscreen = true;
+	vimeoFrame.mozallowfullscreen = true;
+	vimeoFrame.allowfullscreen = true;
+
+	console.dir(vimeo);
+	vimeo.appendChild(vimeoFrame);
+}
+
+
+function load() {
+	twitterCall();
+	vimeoLoad();
+}
+
+window.onload = load;
+
+
+
+
+
+
+
 
