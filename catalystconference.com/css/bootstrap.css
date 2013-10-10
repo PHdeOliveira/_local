@@ -5977,6 +5977,12 @@ Pagination Styles
   .post-site .container {
     width: 886px !important;
   }
+  .post-site .realign {
+    display: block;
+  }
+  .post-site .realign-hide {
+    display: none;
+  }
 }
 @media (max-width: 767px) {
   .largeads .spot {
@@ -6999,6 +7005,15 @@ li {
 p {
   -webkit-font-smoothing: antialiased;
 }
+a {
+  display: block;
+}
+.realign {
+  display: none;
+}
+.realign-hide {
+  display: block;
+}
 .post-site {
   background: #ffffff !important;
   padding: 84px 0 65px;
@@ -7042,14 +7057,14 @@ p {
   display: table;
   margin: 0 auto 4px;
 }
-#sm {
+.sm {
   width: 280px;
   height: 156px;
   margin: 0 0 4px 0;
   position: relative;
   float: left;
 }
-#sm .sm-text {
+.sm .sm-text {
   font-size: 11px;
   line-height: 13px;
   font-family: 'Avenir', helvetica, arial, sans-serif;
@@ -7058,7 +7073,7 @@ p {
   padding: 26px 30px 0;
   margin: 0 !important;
 }
-#sm .sm-date {
+.sm .sm-date {
   position: absolute;
   bottom: 18px;
   right: 30px;
@@ -7069,7 +7084,7 @@ p {
   line-height: 13px;
   font-family: 'Avenir', helvetica, arial, sans-serif;
 }
-#quote {
+.quote {
   width: 564px;
   height: 156px;
   margin: 0 0 4px 0;
@@ -7081,20 +7096,20 @@ p {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-#quote p {
+.quote p {
   font-family: 'Avenir', helvetica, arial, sans-serif;
   font-size: 26px;
   line-height: 30px;
   font-weight: 500;
   margin: 0;
 }
-#quote .quote-author {
+.quote .quote-author {
   position: absolute;
   bottom: 22px;
   right: 21px;
   font-weight: normal;
 }
-#ad {
+.ad {
   width: 280px;
   height: 156px;
   margin: 0 0 4px 0;

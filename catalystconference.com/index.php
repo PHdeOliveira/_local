@@ -15,7 +15,7 @@
 
 		<div class="container masonry">
 
-			<div id="sm" class="sm-twitter item">
+			<div class="sm sm-twitter item">
 
 				<div title="Code: 0xe800" class="the-icons"><i class="icon-spin1 animate-spin"></i></div>
 
@@ -34,14 +34,14 @@
 
 			</div>
 
-			<div id="quote" class="item">
+			<div class="quote item">
 				
 				<p>"If you're not ready to face opposition for your obedience to God, you're not ready to be used by God."</p>
 				<p class="quote-author">Craig Groeschel</p>
 
 			</div>
 
-			<div id="ad" class="last tall-ad item">
+			<div class="ad last tall-ad item">
 				
 				<img src="img/thank_you.jpg" alt="Thanks for coming to Catalyst">
 
@@ -49,12 +49,12 @@
 
 			<!-- /End Row 1 -->
 
-			<div id="ad" class="tall-ad wide-ad item">
+			<div class="ad tall-ad wide-ad item">
 				
 				<img src="img/catalyst_new_date.jpg" alt="Catalyst - Atlanta, October 1 - 3, 2014">	
 
 			</div>
-			<div id="ad" class="tall-ad item">
+			<div class="ad tall-ad item">
 
 				<a href="http://store.catalystconference.com/catalyst-east-2013-experience-kit/">
 
@@ -63,7 +63,7 @@
 				</a>
 
 			</div>
-			<div id="ad" class="last item">
+			<div class="ad last item">
 
 				<a href="https://s.qualtrics.com/SE/?SID=SV_cTpPOuln3ICDd8p&Preview=Survey&BrandID=core4">
 				
@@ -75,13 +75,13 @@
 
 			<!-- /End Row 2 -->
 
-			<div id="sm" class="sm-fb item">
+			<div class="sm sm-fb item">
 				<p class="sm-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
 				<p class="sm-date">Sept 16</p>
 
 			</div>
 
-			<div id="sm" class="sm-twitter item">
+			<div class="sm sm-twitter item">
 
 				<div title="Code: 0xe800" class="the-icons"><i class="icon-spin1 animate-spin"></i></div>
 
@@ -89,7 +89,7 @@
 
 			</div>
 
-			<div id="ad" class="wide-ad last item">
+			<div class="ad wide-ad last item">
 				
 				<img src="img/known_resources.jpg" alt="Known Resources">
 
@@ -97,7 +97,7 @@
 
 			<!-- /End Row 3 -->
 
-			<div id="ad" class="wide-ad item">
+			<div class="ad wide-ad item">
 
 				<a href="http://catalystconference.com/atlanta/information/sponsors/">
 				
@@ -107,7 +107,7 @@
 
 			</div>
 
-			<div id="ad" class="wide-ad tall-ad item">
+			<div class="ad wide-ad tall-ad item">
 
 				<a href="http://catalystconference.com/one-day/">
 				
@@ -117,7 +117,7 @@
 
 			</div>
 
-			<div id="ad" class="tall-ad item">
+			<div class="ad tall-ad item">
 
 				<a href="http://instagram.com/catalystleader">
 				
@@ -127,7 +127,7 @@
 
 			</div>
 
-			<div id="ad" class="tall-ad item">
+			<div class="ad tall-ad item">
 				
 				<a href="http://catalystconference.com/backstage">
 				
@@ -137,13 +137,13 @@
 
 			</div>
 
-			<div id="sm" class="sm-fb item">
+			<div class="sm sm-fb item">
 				<p class="sm-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
 				<p class="sm-date">Sept 16</p>
 
 			</div>
 
-			<div id="sm" class="sm-twitter item">
+			<div class="sm sm-twitter item">
 
 				<div title="Code: 0xe800" class="the-icons"><i class="icon-spin1 animate-spin"></i></div>
 
@@ -151,7 +151,7 @@
 
 			</div>
 
-			<div id="ad" class="tall-ad item">
+			<div class="ad tall-ad item">
 				
 				<a href="http://catalystconference.com/europe/">
 				
@@ -162,7 +162,7 @@
 
 			</div>
 
-			<div id="sm" class="sm-twitter item">
+			<div class="sm sm-twitter item">
 
 				<div title="Code: 0xe800" class="the-icons"><i class="icon-spin1 animate-spin"></i></div>
 
@@ -170,7 +170,7 @@
 
 			</div>
 
-			<div id="ad" class="wide-ad item">
+			<div class="ad wide-ad item">
 				
 				<a href="http://catalystconference.com/atlanta/artists/">
 				
@@ -180,14 +180,14 @@
 
 			</div>
 
-			<div id="quote" class="item">
+			<div class="quote item">
 				
 				<p>"We're told to go and make disciples, but we often just sit and make excuses"</p>
 				<p class="quote-author">Francis Chan</p>
 
 			</div>
 
-			<div id="sm" class="sm-fb item">
+			<div class="sm sm-fb item">
 				<p class="sm-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
 				<p class="sm-date">Sept 16</p>
 
@@ -199,7 +199,7 @@
 
 			</div>
 
-			<div id="ad" class="tall-ad item">
+			<div class="ad tall-ad item">
 
 				<a href="">
 				
@@ -209,7 +209,7 @@
 
 			</div>
 
-			<div id="ad" class="tall-ad item">
+			<div class="ad tall-ad item">
 
 				<a href="http://www.flickr.com/photos/catalystconference2011/sets/">
 				
@@ -219,7 +219,7 @@
 
 			</div>
 
-			<div id="sm" class="sm-twitter item">
+			<div class="sm sm-twitter item">
 
 				<div title="Code: 0xe800" class="the-icons"><i class="icon-spin1 animate-spin"></i></div>
 
@@ -227,27 +227,7 @@
 
 			</div>
 
-			<div id="ad" class="wide-ad item">
-				
-				<a href="http://catalystconference.com/atlanta/special-offers/">
-				
-					<img src="img/special_offers.jpg" alt="Special Offers">
-
-				</a>
-
-			</div>
-
-			<div id="ad" class="tall-ad item">
-
-				<a href="">
-				
-					<img src="img/conference.jpg" alt="Catalyst Conference">
-
-				</a>
-
-			</div>
-
-			<div id="ad" class="item">
+			<div class="ad item realign">
 				
 				<a href="">
 				
@@ -257,7 +237,37 @@
 
 			</div>
 
-			<div id="quote" class="item">
+			<div class="ad wide-ad item">
+				
+				<a href="http://catalystconference.com/atlanta/special-offers/">
+				
+					<img src="img/special_offers.jpg" alt="Special Offers">
+
+				</a>
+
+			</div>
+
+			<div class="ad tall-ad item">
+
+				<a href="">
+				
+					<img src="img/conference.jpg" alt="Catalyst Conference">
+
+				</a>
+
+			</div>
+
+			<div class="ad item realign-hide">
+				
+				<a href="">
+				
+					<img src="img/reading_plan.jpg" alt="Known Bible Reading Plan">
+
+				</a>
+
+			</div>
+
+			<div class="quote item">
 				
 				<p>"We can't make people fall in love with Jesus, but we can set up the first date!"</p>
 				<p class="quote-author">Andy Stanley</p>
