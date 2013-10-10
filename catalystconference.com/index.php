@@ -56,12 +56,20 @@
 			</div>
 			<div id="ad" class="tall-ad item">
 
-				<img src="img/exp_kit.jpg" alt="Catalyst Experience Kit">
+				<a href="http://store.catalystconference.com/catalyst-east-2013-experience-kit/">
+
+					<img src="img/exp_kit.jpg" alt="Catalyst Experience Kit">
+
+				</a>
 
 			</div>
 			<div id="ad" class="last item">
+
+				<a href="https://s.qualtrics.com/SE/?SID=SV_cTpPOuln3ICDd8p&Preview=Survey&BrandID=core4">
 				
-				<img src="img/what_you_think.jpg" alt="Let Us know what you think">	
+					<img src="img/what_you_think.jpg" alt="Let Us know what you think">	
+
+				</a>
 
 			</div>
 
@@ -90,20 +98,28 @@
 			<!-- /End Row 3 -->
 
 			<div id="ad" class="wide-ad item">
+
+				<a href="http://catalystconference.com/atlanta/information/sponsors/">
 				
-				<img src="img/partners.jpg" alt="Our Partners">
+					<img src="img/partners.jpg" alt="Our Partners">
+
+				</a>
 
 			</div>
 
 			<div id="ad" class="wide-ad tall-ad item">
+
+				<a href="http://catalystconference.com/one-day/">
 				
-				<img src="img/one_day.jpg" alt="Catalyst One Day">
+					<img src="img/one_day.jpg" alt="Catalyst One Day">
+
+				</a>
 
 			</div>
 
 			<div id="ad" class="tall-ad item">
 
-				<a href="">
+				<a href="http://instagram.com/catalystleader">
 				
 					<img src="img/instagram.jpg" alt="Instagram">
 
@@ -113,9 +129,9 @@
 
 			<div id="ad" class="tall-ad item">
 				
-				<a href="">
+				<a href="http://catalystconference.com/backstage">
 				
-					<img src="img/backstage.jpg" alt="Instagram">
+					<img src="img/backstage.jpg" alt="Backstage">
 
 				</a>
 
@@ -137,9 +153,9 @@
 
 			<div id="ad" class="tall-ad item">
 				
-				<a href="">
+				<a href="http://catalystconference.com/europe/">
 				
-					<img src="img/catalyst_europe.jpg" alt="Instagram">
+					<img src="img/catalyst_europe.jpg" alt="Catalyst Europe">
 
 				</a>
 
@@ -156,7 +172,7 @@
 
 			<div id="ad" class="wide-ad item">
 				
-				<a href="">
+				<a href="http://catalystconference.com/atlanta/artists/">
 				
 					<img src="img/artists.jpg" alt="Artists">
 
@@ -195,7 +211,7 @@
 
 			<div id="ad" class="tall-ad item">
 
-				<a href="">
+				<a href="http://www.flickr.com/photos/catalystconference2011/sets/">
 				
 					<img src="img/flickr.jpg" alt="flickr">
 
@@ -213,7 +229,7 @@
 
 			<div id="ad" class="wide-ad item">
 				
-				<a href="">
+				<a href="http://catalystconference.com/atlanta/special-offers/">
 				
 					<img src="img/special_offers.jpg" alt="Special Offers">
 

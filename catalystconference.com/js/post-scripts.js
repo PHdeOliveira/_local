@@ -23,7 +23,8 @@ function twitterCall() {
 
  	var loader = document.getElementsByClassName('sm-twitter');
 	var frame = document.getElementById('twitter-widget-0');
-	var stream = frame.contentDocument.children[0].children[1].children[0].children[2];
+	var stream = frame.contentDocument.firstChild.children[1].children[0].children[2];
+	console.dir(stream);
 	var feed = stream.firstElementChild;
 	var feedChildren = feed.children;
 	var tweet;
@@ -31,6 +32,8 @@ function twitterCall() {
 
 	var container = document.getElementsByClassName('twitter-container');
 	var tweetResults = [];
+
+	
 
 	for (var i = 0; i < feedChildren.length; i++) {
 
@@ -91,7 +94,7 @@ function vimeoLoad() {
 	vimeoFrame.mozallowfullscreen = true;
 	vimeoFrame.allowfullscreen = true;
 
-	console.dir(vimeo);
+	// console.dir(vimeo);
 	vimeo.appendChild(vimeoFrame);
 }
 

@@ -7632,6 +7632,14 @@ body.cke_show_borders .section_header {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
+  .post-site .container {
+    width: 886px !important;
+  }
+}
+@media (max-width: 1200px) {
+  .post-site .container {
+    width: 886px !important;
+  }
 }
 @media (max-width: 767px) {
   .largeads .spot {
