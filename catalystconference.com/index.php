@@ -178,8 +178,8 @@
 			</div>
 
 			<div id="vimeo" class="wide-ad tall-ad item">
-
-				<!--iframe src="//player.vimeo.com/video/65696417" width="564" height="312" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe-->
+				
+				<div id="vimeo-container"></div>
 
 			</div>
 

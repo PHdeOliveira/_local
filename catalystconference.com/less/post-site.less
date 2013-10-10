@@ -4,6 +4,10 @@ li {
 	list-style: none;
 }
 
+p {
+	-webkit-font-smoothing: antialiased;
+}
+
 .post-site {
 	background: @white !important;
 	padding: 84px 0 65px;
@@ -115,6 +119,7 @@ li {
 		position: absolute;
 		bottom: 22px;
 		right: 21px;
+		font-weight: normal;
 	}
 
 }
@@ -136,6 +141,15 @@ li {
 .wide-ad {
 	width: 564px !important;
 
+}
+
+#vimeo {
+	max-width: 564px;
+	min-width: 564px;
+	max-height: 312px;
+	min-height: 312px;
+	overflow: hidden;
+	margin-bottom: 4px;
 }
 
 // Fontello

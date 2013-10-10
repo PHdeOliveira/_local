@@ -80,7 +80,7 @@ clearTimeout();
 }
 
 function vimeoLoad() {
-	var vimeo = document.getElementById('vimeo');
+	var vimeo = document.getElementById('vimeo-container');
 	var vimeoFrame = document.createElement('iframe');
 
 	vimeoFrame.src = '//player.vimeo.com/video/65696417';
