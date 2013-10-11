@@ -50,8 +50,12 @@
 			<!-- /End Row 1 -->
 
 			<div class="ad tall-ad wide-ad item">
+
+				<a href="https://events.catalystspace.com/">
 				
-				<img src="img/catalyst_new_date.jpg" alt="Catalyst - Atlanta, October 1 - 3, 2014">	
+					<img src="img/catalyst_new_date.jpg" alt="Catalyst - Atlanta, October 1 - 3, 2014">	
+
+				</a>
 
 			</div>
 			<div class="ad tall-ad item">
@@ -90,8 +94,12 @@
 			</div>
 
 			<div class="ad wide-ad last item">
+
+				<a href="http://store.catalystconference.com/catalyst-2013/">
 				
-				<img src="img/known_resources.jpg" alt="Known Resources">
+					<img src="img/known_resources.jpg" alt="Known Resources">
+
+				</a>
 
 			</div>
 
@@ -201,7 +209,7 @@
 
 			<div class="ad tall-ad item">
 
-				<a href="">
+				<a href="http://catalystconference.com/atlanta/that-i-may-be-truly-known/">
 				
 					<img src="img/truly_known.jpg" alt="That I May Be Truly Known">
 
@@ -229,7 +237,7 @@
 
 			<div class="ad item realign">
 				
-				<a href="">
+				<a href="http://catalyst-conference.biblejourneys.org/">
 				
 					<img src="img/reading_plan.jpg" alt="Known Bible Reading Plan">
 
@@ -249,7 +257,7 @@
 
 			<div class="ad tall-ad item">
 
-				<a href="">
+				<a href="https://events.catalystspace.com/">
 				
 					<img src="img/conference.jpg" alt="Catalyst Conference">
 
@@ -259,7 +267,7 @@
 
 			<div class="ad item realign-hide">
 				
-				<a href="">
+				<a href="http://catalyst-conference.biblejourneys.org/">
 				
 					<img src="img/reading_plan.jpg" alt="Known Bible Reading Plan">
 

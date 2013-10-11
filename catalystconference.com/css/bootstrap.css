@@ -7060,7 +7060,7 @@ a {
 .sm {
   width: 280px;
   height: 156px;
-  margin: 0 0 4px 0;
+  margin: 0px 0 4px 0;
   position: relative;
   float: left;
 }
@@ -7087,7 +7087,7 @@ a {
 .quote {
   width: 564px;
   height: 156px;
-  margin: 0 0 4px 0;
+  margin: 0 0 4px;
   background: #6bc651;
   float: left;
   padding: 16px 20px 26px;
@@ -7112,8 +7112,7 @@ a {
 .ad {
   width: 280px;
   height: 156px;
-  margin: 0 0 4px 0;
-  background: #7a43b6;
+  margin: 0 0 4px;
   float: left;
 }
 .tall-ad {
@@ -7124,11 +7123,9 @@ a {
 }
 #vimeo {
   max-width: 564px;
-  min-width: 564px;
   max-height: 312px;
-  min-height: 312px;
   overflow: hidden;
-  margin-bottom: 4px;
+  margin: 0 0 4px;
 }
 @font-face {
   font-family: 'fontello';
